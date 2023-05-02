@@ -7,7 +7,7 @@ function Header() {
   return (
     <Container>
       <a href="/">
-        <img src="images/logo.svg" alt="" />
+        {/* <img src="images/logo.svg" alt="" /> */}
       </a>
       <Menu>
         <a href="#modelS">Model S</a>

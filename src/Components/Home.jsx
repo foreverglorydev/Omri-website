@@ -1,47 +1,64 @@
-import React from "react";
+import React, { useRef } from "react";
 import styled from "styled-components";
 import Section from "./Section";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
 const text = [
-  "Schedule a Demo Drive",
+  "",
   "Lowest Cost Solar Panels in America",
   "Produce Clean Energy From Your Roof",
 ];
 
-const leftBtnTxt = ["Buy Now" , "Order Now" , "Shop Now"];
-const rightBtnTxt = ["Custom Order" , "Learn More"];
+const leftBtnTxt = ["Buy Now", "Order Now", "Shop Now"];
+const rightBtnTxt = ["Custom Order", "Learn More"];
 
 const downArrow = "/images/down-arrow.svg";
+
+
+
+
 function Home() {
+
+  const videoRef = useRef(null);
+
+  const handleVideoEnd = () => {
+
+    const video = document.getElementById('videoshow');
+    video.style.display = 'none';
+    const image = document.getElementById('modelX');
+    image.style.display = 'flex';
+  };
+
   return (
     <Container>
-      {/* <Section
+
+      <video controls autoplay onEnded={handleVideoEnd} id="videoshow" ref={videoRef}>
+        <source src="video/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <Section
         id="modelX"
-        model="Model X"
+        model="Experience IV RELIFE"
         text={text[0]}
         leftBtn={leftBtnTxt[0]}
         rightBtn={rightBtnTxt[0]}
         arrow={downArrow}
-        imgsrc="model-x.jpg"
-      /> */}
-      <Carousel className="carousel-container bosschair" showThumbs = {false} showStatus = {false} swipeable = {true} infiniteLoop={true} style = {{zIndex:'20'}}>
+        imgsrc="Both.jpeg"
+      />
+      {/* <Carousel className="carousel-container bosschair" showThumbs = {false} showStatus = {false} swipeable = {true} infiniteLoop={true} style = {{zIndex:'20'}}>
             <div>
                 <img src="images/boss-chair/image1.jpg" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src="images/boss-chair/image2.jpg" />
-                {/* <p className="legend">Legend 2</p> */}
             </div>
             <div>
                 <img src="images/boss-chair/image3.jpg" />
-                {/* <p className="legend">Legend 3</p> */}
             </div>
             <div>
                 <img src="images/boss-chair/image4.jpg" />
-                {/* <p className="legend">Legend 4</p> */}
             </div>
       </Carousel>
       <Carousel className="carousel-container eye-massager" showThumbs = {false} showStatus = {false} swipeable = {true} infiniteLoop={true} style = {{zIndex:'20'}}>
@@ -63,7 +80,7 @@ function Home() {
             <div>
                 <img src="images/eye-massager/image6.jpg" />
             </div>
-      </Carousel>
+      </Carousel> */}
       {/* <Section
         id="modelS"
         model="Model S"

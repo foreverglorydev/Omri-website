@@ -281,6 +281,6 @@ const CloseWrapper = styled.div`
   justify-content: flex-end;
 `;
 const IMG = styled.img`
-  width:180px;
-  height:30px;
+  width:140px;
+  height:20px;
 `;

@@ -46,7 +46,7 @@ const ItemText = styled.div`
   text-align: center;
   z-index: -1;
   h1 {
-    color:black;
+    color:white;
     font-family: "Alata", sans-serif;
     font-weight: bolder;
     font-size: 2.4rem;

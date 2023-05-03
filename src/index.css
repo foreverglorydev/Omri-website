@@ -23,6 +23,10 @@ a {
   overflow-x: hidden;
 }
 
+#modelX {
+  display: none;
+}
+
 #bosschair {
   position: relative;
   z-index: 20 !important;

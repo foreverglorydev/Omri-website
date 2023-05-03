@@ -52,8 +52,8 @@ function Home() {
         id="modelX"
         model="Experience IV RELIFE"
         text={text[0]}
-        leftBtn={leftBtnTxt[0]}
-        rightBtn={rightBtnTxt[0]}
+        // leftBtn={leftBtnTxt[0]}
+        // rightBtn={rightBtnTxt[0]}
         arrow={downArrow}
         imgsrc="Both.jpeg"
       />

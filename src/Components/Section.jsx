@@ -14,10 +14,10 @@ function Section(props) {
       <Buttons>
         <Fade bottom>
           <ButtonGroup>
-            <LeftButton>{props.leftBtn}</LeftButton>
+            {/* <LeftButton>{props.leftBtn}</LeftButton>
             {props.rightBtn !== "" && (
               <RightButton>{props.rightBtn}</RightButton>
-            )}
+            )} */}
           </ButtonGroup>
         </Fade>
         <DownArrow src={props.arrow} />

@@ -36,13 +36,13 @@ a {
 
 video {
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
 
 @media (max-width: 768px) {
   video {
     overflow: hidden;
-    width: 800px;
+    width: 1800px;
     height: auto;
     object-fit: cover;
     /* position: relative; */

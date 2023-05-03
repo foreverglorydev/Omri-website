@@ -10,9 +10,9 @@ function Header() {
         <IMG src="images/logo.png" alt="" />
       </a>
       <Menu>
-        <a href=".carousel-container">Boss Chair</a>
-        <a href="#model3">Hand Massager PureTouch</a>
-        <a href="#modelX">Prince relaxio Massage Chair</a>
+        <a href="">Boss Chair</a>
+        <a href="">Eye Massager</a>
+        <a href="">Hand Massager</a>
         {/* <a href="#modelY">Model Y</a>
         <a href="#solarRoof">Solar Roof</a>
         <a href="#solarPanel">Solar Panels</a>

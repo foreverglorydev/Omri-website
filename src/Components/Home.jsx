@@ -26,7 +26,7 @@ function Home() {
         arrow={downArrow}
         imgsrc="model-x.jpg"
       /> */}
-      <Carousel className="carousel-container" id = "bosschair" showThumbs = {false} showStatus = {false} swipeable = {true} infiniteLoop={true} style = {{zIndex:'20'}}>
+      <Carousel className="carousel-container bosschair" showThumbs = {false} showStatus = {false} swipeable = {true} infiniteLoop={true} style = {{zIndex:'20'}}>
             <div>
                 <img src="images/boss-chair/image1.jpg" />
                 {/* <p className="legend">Legend 1</p> */}

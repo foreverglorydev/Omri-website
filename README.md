@@ -1,4 +1,4 @@
-# Tesla Clone
+# Omri-Website
 A web-based project that is a clone of the Tesla website. It is built with React.js, Styled Components, Material UI and hosted on Firebase Hosting. The site is mobile-responsive and provides a seamless user experience on all devices.
 
 ## Getting Started

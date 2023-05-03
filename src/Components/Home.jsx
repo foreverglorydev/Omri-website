@@ -38,6 +38,16 @@ function Home() {
         Your browser does not support the video tag.
       </video>
 
+      {/* <Section
+        id="intro_video"
+        model="Experience IV RELIFE"
+        text={text[0]}
+        leftBtn={leftBtnTxt[0]}
+        rightBtn={rightBtnTxt[0]}
+        arrow={downArrow}
+        imgsrc="video.mp4"
+      /> */}
+
       <Section
         id="modelX"
         model="Experience IV RELIFE"

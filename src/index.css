@@ -32,6 +32,24 @@ a {
   z-index: 20 !important;
 }
 
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  video {
+    overflow: hidden;
+    width: 800px;
+    height: auto;
+    object-fit: cover;
+    /* position: relative; */
+    background-position: center;
+  }
+}
+
 /* .eye-massager img{
   padding: 0px 400px;
 } */

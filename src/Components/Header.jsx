@@ -7,15 +7,30 @@ function Header() {
   return (
     <Container>
       <a href="/">
-        {/* <img src="images/logo.svg" alt="" /> */}
+        <IMG src="images/logo.png" alt="" />
       </a>
       <Menu>
-        <a href="#modelS">Model S</a>
-        <a href="#model3">Model 3</a>
-        <a href="#modelX">Model X</a>
-        <a href="#modelY">Model Y</a>
+        <a href=".carousel-container">Boss Chair</a>
+        <a href="#model3">Hand Massager PureTouch</a>
+        <a href="#modelX">Prince relaxio Massage Chair</a>
+        {/* <a href="#modelY">Model Y</a>
         <a href="#solarRoof">Solar Roof</a>
         <a href="#solarPanel">Solar Panels</a>
+        <a href="#solarPanel">Solar Panels</a>
+        <a href="#solarPanel">Solar Panels</a>
+        <a href="#solarPanel">Solar Panels</a> */}
+
+        {/* 
+          Home
+          About Us
+          BOSS plus
+          Therapy devices
+          Our uniqueness
+          Dealers
+          Services
+          Blog
+          Contact Us
+        */}
       </Menu>
       <RightMenu>
         <a href="#">Shop</a>
@@ -263,4 +278,8 @@ const CustomClose = styled(CloseIcon)`
 const CloseWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
+`;
+const IMG = styled.img`
+  width:100px;
+  height:100px;
 `;

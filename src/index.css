@@ -23,6 +23,14 @@ a {
   overflow-x: hidden;
 }
 
+#bosschair {
+  position: relative;
+  z-index: 20 !important;
+}
+
+.eye-massager img{
+  padding: 0px 400px;
+}
 @keyframes animationDown {
   0%,
   20%,

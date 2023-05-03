@@ -8,6 +8,7 @@ function Header() {
     <Container>
       <a href="/">
         <IMG src="images/logo.png" alt="" />
+        {/* IV RELIFE */}
       </a>
       <Menu>
         <a href="">Boss Chair</a>
@@ -280,6 +281,6 @@ const CloseWrapper = styled.div`
   justify-content: flex-end;
 `;
 const IMG = styled.img`
-  width:100px;
-  height:100px;
+  width:180px;
+  height:30px;
 `;
